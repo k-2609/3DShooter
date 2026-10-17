@@ -18,6 +18,9 @@ add_executable(3DShooter main.cpp
     src/Engine/engine.cpp
     src/Engine/engine.hpp
     src/Engine/Render/render.cpp
-    src/Engine/Render/render.hpp)
+    src/Engine/Render/render.hpp
+    src/Engine/Render/Scenes/logo.cpp
+    src/Engine/Render/Scenes/logo.hpp
+    src/engine/render/text.hpp)
 
 target_link_libraries(${PROJECT_NAME} PRIVATE raylib)
